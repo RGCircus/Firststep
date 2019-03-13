@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context=".CheckBoxActivity">
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="你会那种语言？"
+        android:textColor="#000"
+        android:textSize="20dp"/>
+
+    <CheckBox
+        android:id="@+id/cb_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android"
+        android:layout_below="@+id/tv_title"
+        android:layout_marginTop="10dp"/>
+    <CheckBox
+        android:id="@+id/cb_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Java"
+        android:layout_below="@+id/cb_1"
+        android:layout_marginTop="10dp"/>
+    <CheckBox
+        android:id="@+id/cb_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C#"
+        android:layout_below="@+id/cb_2"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_below="@+id/cb_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        >
+
+    <TextView
+        android:id="@+id/tv_title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="你的兴趣是什么？"
+        android:textColor="#000"
+        android:textSize="20dp"/>
+
+        <CheckBox
+            android:id="@+id/cb_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="编程"
+            android:layout_below="@+id/tv_title2"
+            android:background="@drawable/bg_rb_selctor"
+            android:layout_marginTop="10dp"/>
+        <CheckBox
+            android:id="@+id/cb_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_rb_selctor"
+            android:text="运动"
+            android:layout_below="@+id/cb_4"
+            android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+</RelativeLayout>

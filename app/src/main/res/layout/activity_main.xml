@@ -39,4 +39,11 @@
         android:textAllCaps="true"
         />//跳转edittext
 
+    <Button
+        android:id="@+id/btn_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="checkbox"
+        android:textAllCaps="true"
+        />//跳转checkBox
 </LinearLayout>
