@@ -29,6 +29,14 @@
         android:layout_height="wrap_content"
         android:text="EditText"
         android:textAllCaps="true"
-        />
+        />//跳转edittext
+
+    <Button
+        android:id="@+id/btn_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Radiobutton"
+        android:textAllCaps="true"
+        />//跳转edittext
 
 </LinearLayout>
