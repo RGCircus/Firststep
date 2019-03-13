@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
     private Button btn_tv;
     private Button btn_bt;
     private Button btn_et;
-
+    private Button btn_jk;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
